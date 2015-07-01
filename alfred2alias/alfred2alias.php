@@ -72,7 +72,6 @@ foreach ($file_a as $key => $value) {
 
 }
 
-$file_contents = "OK";
 
 if(isset($_REQUEST['-o']) &&  $_REQUEST['-o'] != ""){
 	$fpc = file_put_contents($_REQUEST['-o'], $file_contents);
